@@ -29,9 +29,9 @@ function draw() {
     flashCount = 3;
    }
 
-  for (let i=0; i<3 ; i++) {
+  for (let i=0; i<1 ; i++) {
     push();
-      translate(width/2 - (i-1)*(height-60),height/2);
+      translate(width/2 - (i)*(height-60),height/2);
       block(i);
     pop();
   }
